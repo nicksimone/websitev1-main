@@ -26,6 +26,11 @@ const router = createRouter({
       path: "/count",
       name: "count",
       component: () => import("../views/CountView.vue"),
+    },
+    {
+      path: "/cover",
+      name: "cover",
+      component: () => import("../views/CoverView.vue"),
     }
   ],
 });
