@@ -21,6 +21,11 @@ const router = createRouter({
       path: "/helloworld",
       name: "helloworld",
       component: () => import("../components/HelloWorld.vue"),
+    },
+    {
+      path: "/count",
+      name: "count",
+      component: () => import("../views/CountView.vue"),
     }
   ],
 });
